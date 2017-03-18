@@ -1,0 +1,53 @@
+body {
+  font-size: 16px;
+}
+
+h1 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold;
+  font-size: 26px;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-size: 20px;
+  margin: 25px 0;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+strong {
+  color: purple;
+}
+
+#header-row {
+  background: #eee;
+  padding: 30px 0;
+  margin-bottom: 35px;
+}
+
+#online, #offline {
+  margin-bottom: 20px;
+}
+
+.status {
+  font-style: italic;
+  color: green;
+}
+
+#footer {
+  background: #eee;
+  padding: 15px 0;
+  margin-top: 50px;
+}
+
+#footer p {
+  padding: 0;
+  margin: 0;
+}

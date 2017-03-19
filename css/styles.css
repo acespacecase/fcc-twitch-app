@@ -1,6 +1,7 @@
 body {
   font-size: 18px;
   font-family: 'Rajdhani', sans-serif;
+  background-color: rgba(131,91,190,0.05);
 }
 
 h1 {
@@ -17,6 +18,10 @@ h2 {
   font-size: 26px;
   margin: 25px 0;
   font-weight: 700;
+  background-color: rgba(43,30,62,0.9);
+  padding: 8px 5px 5px 10px;
+  color: #fff;
+  border-radius: calc(.25rem - 1px);
 }
 
 h3 {
@@ -27,6 +32,15 @@ h3 {
 
 strong {
   color: purple;
+}
+
+a {
+  color: rgba(43,30,62,0.8);
+  font-weight: 700;
+}
+
+a:hover {
+  color: rgba(43,30,62,1)
 }
 
 #header-row {
@@ -45,11 +59,15 @@ strong {
 
 .status {
   font-style: italic;
-  color: green;
+  color: rgba(53,139,73,1);
+}
+
+.card-footer {
+  background-color: rgba(131,91,190,0.15);
 }
 
 #footer {
-  background: #eee;
+  background: #7d5bbe;
   padding: 15px 0;
   margin-top: 50px;
 }
@@ -57,4 +75,14 @@ strong {
 #footer p {
   padding: 0;
   margin: 0;
+  color: #fff;
+}
+
+#footer a {
+  color: #eee;
+  text-decoration: underline;
+}
+
+#footer a:hover {
+  color: #e2e2e2;
 }

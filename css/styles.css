@@ -38,6 +38,10 @@ strong {
   margin-bottom: 20px;
 }
 
+.online-panel, .offline-panel {
+  margin-bottom: 30px;
+}
+
 .status {
   font-style: italic;
   color: green;

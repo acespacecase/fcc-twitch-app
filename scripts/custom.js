@@ -5,7 +5,6 @@ var twitchUrl = "https://wind-bow.gomix.me/twitch-api/streams/";
 
 twitchUsers.forEach(function(user) {
   $.getJSON(twitchUrl + user + '?callback=?', function(data) {
-    console.log(data);
     if (data.stream === null) { //offline
       $('#offline').append('<div class="offline-panel col-lg-4"><div class="card"><div class="card-block"><h3>' + user
                             + '</h3></div><div class="card-footer"><a href="https://twitch.tv/' + user

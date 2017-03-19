@@ -8,6 +8,7 @@ h1 {
   letter-spacing: 2px;
   font-weight: bold;
   font-size: 36px;
+  color: #fff;
   margin: 0;
   padding: 0;
 }
@@ -29,7 +30,7 @@ strong {
 }
 
 #header-row {
-  background: #eee;
+  background: #7d5bbe;
   padding: 30px 0;
   margin-bottom: 35px;
 }
